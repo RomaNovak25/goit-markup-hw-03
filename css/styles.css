@@ -74,7 +74,7 @@ img {
     padding-top: 25px;
     padding-bottom: 25px;
     height: 80px;
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
     
 }
 
@@ -313,6 +313,7 @@ img {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     border-top: none;
+    background-color: #fff;
 }
 
 
@@ -320,6 +321,10 @@ img {
     width: 270px;
     height: 260px;
 
+}
+
+.about-us-img {
+    width: 100%;
 }
 
 
@@ -350,7 +355,7 @@ img {
     letter-spacing: 0.03em;
 
     margin-bottom: 10px;
-    padding-right: 30px;
+    
 }
 
 .job-post {
@@ -372,8 +377,8 @@ img {
 }
 
 .my-team {
+    width: 100%;
     background-color: #F5F4FA;
-    width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
